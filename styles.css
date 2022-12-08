@@ -83,7 +83,6 @@
   .header {
     grid-column: 2 / 3;
     display: grid;
-    grid-template-columns: 1fr 2fr;
   }
   
   .logo {
