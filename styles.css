@@ -97,6 +97,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
+  .bottom-menu ul {
+    display: grid;
+    grid-template-columns: 2fr 1fr 5fr repeat(3, 2fr);
+  }
   
     ul,
     li {
