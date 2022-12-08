@@ -95,7 +95,7 @@
   
   .menu ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 13fr 1fr 1fr 2fr;
   }
 
   .bottom-menu ul {
