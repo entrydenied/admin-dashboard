@@ -46,6 +46,15 @@
     font-weight: bolder;
     font-size: 18px;
 }
+
+#search {
+    background-color: #d1d5db;
+    padding: 8px 16px;
+    border-radius: 20px;
+    width: 85%;
+    height: 18px;
+    opacity: 50%;
+}
   
   .container {
     text-align: center;
@@ -59,11 +68,11 @@
     font-size: 32px;
     font-family: Helvetica;
     font-weight: bold;
-    color: white;
+    color: black;
   }
   
   .header {
-    background-color: #393f4d;
+    background-color: #f8fafc;
     grid-column: 2 / 3;
     display: grid;
   }
@@ -138,7 +147,7 @@
   }
   
   .article {
-    background-color: #bccbde;
+    background-color: #d1d5db;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 15px;
