@@ -51,9 +51,14 @@
     background-color: #d1d5db;
     padding: 8px 16px;
     border-radius: 20px;
-    width: 85%;
-    height: 18px;
+    width: 50%;
+    height: 1em;
     opacity: 50%;
+    position: absolute;
+    align-self: start;
+    margin-left: 40px;
+
+    /* place-self: center stretch; */
 }
   
   .container {
@@ -77,21 +82,30 @@
     display: grid;
   }
 
-  .logo {
-    justify-self: start;
+  .top-menu ul {
+    display: flex;
+    justify-content: space-between; 
+    /* display: grid;
+    grid-template-columns: 1fr 13fr 1fr 1fr 2fr; */
   }
 
-  .menu {
-    align-self: center;
+  .top-menu-right {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 10px;
   }
 
-  .menu ul {
-    display: grid;
-    grid-template-columns: 1fr 13fr 1fr 1fr 2fr;
+  #search-icon {
+    margin-top: 5px;
   }
 
-  .menu ul,
-  .menu li {
+  #bell {
+    align-self: end;
+    margin-bottom: 15px;
+  }
+
+  .top-menu ul,
+  .top-menu li {
     font-size: 16px;
   }
 
