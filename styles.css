@@ -34,6 +34,18 @@
     font-family: Roboto-Light, Roboto-Regular;
     /* font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   }
+
+  .button {
+    background: #3882f6;
+    border: 2px solid white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    width: 160px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+}
   
   .container {
     text-align: center;
