@@ -33,9 +33,9 @@
     padding: 0;
     font-family: Roboto-Light, Roboto-Regular;
     /* font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
-  }
+}
 
-  .button {
+.button {
     background: #13a4f8;
     border: 2px solid #13a4f8;
     padding: 8px 16px;
@@ -57,71 +57,67 @@
     position: absolute;
     align-self: start;
     margin-left: 40px;
-
     /* place-self: center stretch; */
 }
-  
-  .container {
+
+.container {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 4fr;
-
-  }
+}
   
-  .container div {
+.container div {
     padding: 15px;
     font-size: 32px;
     font-family: Helvetica;
     font-weight: bold;
     color: black;
-  }
+}
   
-  .header {
+.header {
     background-color: #f8fafc;
     grid-column: 2 / 3;
     display: grid;
-  }
+}
 
-  .top-menu ul {
-    /* display: flex;
-    justify-content: space-between;  */
-    display: grid;
-    grid-template-columns: 5fr 1fr;
-  }
 
-  .top-menu .right {
+  
+.top-menu ul {
+    display: flex;
+    justify-content: space-between; 
+    /* display: grid;
+    grid-template-columns: 1fr 13fr 1fr 1fr 2fr; */
+}
+
+.top-menu-right {
     display: flex;
     gap: 25px;
-  }
-
-
-  .top-menu .left {
-    display: flex;
-  }
-  #search-icon {
     margin-bottom: 10px;
-    
-  }
+}
 
-  #bell {
+#search-icon {
+    margin-top: 5px;
+}
+
+#bell {
     align-self: end;
     margin-bottom: 15px;
-  }
+}
 
-  .top-menu ul,
-  .top-menu li {
+.top-menu ul,
+.top-menu li {
     font-size: 16px;
-  }
+}
 
-  .bottom-menu ul {
+.bottom-menu ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr) 4fr repeat(3, 1fr);
-  }
+}
   
-    ul,
-    li {
+ul,
+li {
     list-style-type: none;
-  }
+}
   
   .sidebar {
     background-color: #13a4f8;
@@ -148,17 +144,14 @@
     display: flex; 
     gap: 20px;
   }
-
   #dash {
     display: flex;
     margin-top: 8px;
   }
-
   .photo {
     display: flex;
     margin-bottom: 40px;
   }
-
   #settings {
     display: flex;
     margin-top: 40px;
@@ -198,4 +191,3 @@
     font-size: 18px;
     text-align: center;
   }
-  
