@@ -36,10 +36,10 @@
   }
 
   .button {
-    background: #3882f6;
+    background: #13a4f8;
     border: 2px solid white;
     padding: 8px 16px;
-    border-radius: 8px;
+    border-radius: 20px;
     color: white;
     width: 160px;
     height: 40px;
@@ -88,7 +88,7 @@
 
   .bottom-menu ul {
     display: grid;
-    grid-template-columns: 2fr 1fr 5fr repeat(3, 2fr);
+    grid-template-columns: repeat(2, 1fr) 4fr repeat(3, 1fr);
   }
   
     ul,
