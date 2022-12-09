@@ -31,14 +31,14 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Roboto-Black, Roboto-Regular;
+    font-family: Roboto-Light, Roboto-Regular;
     /* font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   }
   
   .container {
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
 
   }
   
@@ -86,31 +86,43 @@
   
   .sidebar {
     background-color: #13a4f8;
-    grid-row: 1 / 5;
+    grid-row: 1 / 4;
     display: grid;
     gap: 5px;
-    grid-template-rows: repeat(10, 1fr);
+    
   }
   
   .sidebar .photo {
     color: white;
-    font-size: 24px;
-    font-weight: normal;
+    font-size: 30px;
+    font-weight: bolder;
     border-radius: 10px;
     display: flex; 
     gap: 20px;
+    
   }
   
   .sidebar .side-content {
     color: white;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     display: flex; 
     gap: 20px;
   }
 
+  #dash {
+    display: flex;
+    margin-top: 8px;
+  }
+
   .photo {
-    align-self: center;
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  #settings {
+    display: flex;
+    margin-top: 40px;
   }
   
   .article {
