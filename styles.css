@@ -83,20 +83,24 @@
   }
 
   .top-menu ul {
-    display: flex;
-    justify-content: space-between; 
-    /* display: grid;
-    grid-template-columns: 1fr 13fr 1fr 1fr 2fr; */
+    /* display: flex;
+    justify-content: space-between;  */
+    display: grid;
+    grid-template-columns: 5fr 1fr;
   }
 
-  .top-menu-right {
+  .top-menu .right {
     display: flex;
     gap: 25px;
-    margin-bottom: 10px;
   }
 
+
+  .top-menu .left {
+    display: flex;
+  }
   #search-icon {
-    margin-top: 5px;
+    margin-bottom: 10px;
+    
   }
 
   #bell {
